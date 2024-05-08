@@ -1,0 +1,170 @@
+body{
+    background-image: url(./assets/bg-main-desktop.png);
+     min-height: 100vh;
+     margin: 0;
+
+}
+.pattern-1{
+    width: 19.5rem;
+    height:29.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logo{
+    width: 9.131rem;
+    height:2;
+    padding-top: 3.874rem;
+    padding-left: 10.384rem;
+}
+
+h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.5rem;
+    color: #191826;
+    margin-left: 10.313rem;
+    margin-right: 16.375rem;
+    margin-bottom: 2.5rem;
+}
+.header-content-paragraph{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #191826;
+    margin-left: 10.281rem;
+    margin-right: 29.531rem;
+}
+h2{
+    font-family: "IBM plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #FCFAF9;
+    margin-left: 3.375rem;
+    margin-right: 3.688rem;
+    margin-top: 3.625rem;
+    margin-bottom: 1.375rem;
+}
+.hero-content-paragraph{
+    font-family: "IBM plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #FCFAF9;
+    margin-left: 3.375rem;
+    margin-right: 3.688rem;
+}
+
+.hero-content-price{
+    display: flex;
+    align-items: center;
+    color: #FCFAF9;
+    font-size: 1.25rem;
+}
+.hero-content-price .big{
+    font-size: 4.0625rem;
+    font-weight: 700;
+    margin-left: 3.375rem;
+    padding-right: 1rem;
+    margin-bottom: 2.875rem;
+}
+
+.container{
+    display: grid; 
+    grid-template-columns: 6.375rem 14.625rem 4.875rem 9.688rem 4.938rem 22.938rem 5.938rem; 
+    grid-template-rows: 13.313rem 5.625rem 21.188rem 5.344rem 5.344rem 7.188rem; 
+    gap: 0rem 0rem; 
+    margin-left: 10.313rem;
+    margin-right: 10.313rem;;
+    margin-top: 6.75rem;
+}
+  
+.Phone-img {
+    grid-area: 1 / 2 / 5 / 4;
+    width: 19.5rem;
+    height: 40.125rem; }
+
+.phone-illustration{
+    width: 19.5rem;
+    height: 40.125;
+}
+  
+.Premium {
+    grid-area: 3 / 5 / 7 / 7;
+    background-color: #FA7453;
+    width: 27.875;
+    height: 39.063rem;
+    border-radius: 0.75rem;
+}
+  
+.Back-illu { 
+    grid-area: 2 / 3 / 5 / 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+  
+.Black-font { 
+    grid-area: 2 / 1 / 6 / 8;
+    background-color: #191826;
+    border-radius: 0.75rem;
+    z-index: -3;
+}
+  
+.hero-android{
+    height:3.813rem ;
+    width: 20.813rem;
+    border-radius:0.75rem ;
+    background-color: #FCFAF9;
+    margin-left: 3.375rem;
+    margin-right: 3.688rem;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    border: none;
+}
+.hero-ios{
+    height:3.813rem ;
+    width: 20.813rem;
+    border-radius:0.75rem ;
+    background-color: #191826;
+    color: #FCFAF9;
+    margin-left: 3.375rem;
+    margin-right: 3.688rem;
+    font-size: 1.125rem;
+    border: none;
+}
+
+.hero-ios:hover{
+  background: #66E2DC;
+}
+.hero-android:hover{
+    background: #ffb964;
+}
+
+footer{
+    display: flex;
+    margin-left: 10.313rem;
+    margin-bottom: 5.688rem;
+    margin-top: 5.438rem;
+
+}
+.footer-paragraph{
+    font-family: "IBM plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    width: 22.875rem;
+    height: 17.813rem ;
+    margin-left: 8.61rem;
+}
+.footer-content-paragraph{
+    margin-top: 0;
+}
+.social{
+    margin-left: 28.688rem;
+}
+
